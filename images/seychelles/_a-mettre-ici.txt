@@ -1,0 +1,29 @@
+Seychelles
+==========
+
+Dépose ici la photo de cette destination. N'importe quel nom de fichier
+convient : le site prend la première image du dossier.
+
+  Formats acceptés   .webp (préféré), .jpg, .jpeg, .png
+  Cadrage            paysage, 1600 × 900 min.
+  Poids visé         150 à 250 Ko après compression
+
+Requête de recherche conseillée :
+
+  Seychelles Anse Lazio à Praslin
+
+  Unsplash  https://unsplash.com/fr/s/photos/Seychelles+Anse+Lazio+%C3%A0+Praslin
+  Pexels    https://www.pexels.com/fr-fr/chercher/Seychelles+Anse+Lazio+%C3%A0+Praslin/
+  Commons   https://commons.wikimedia.org/w/index.php?search=Seychelles+Anse+Lazio+%C3%A0+Praslin&title=Special:MediaSearch&type=image
+
+Où elle apparaîtra : Fiche et vignette
+
+Deux vérifications qui n'appartiennent qu'à toi :
+  1. que l'image montre bien ce lieu — aucun contrôle automatique ne le dira ;
+  2. que la licence autorise l'usage commercial, au moment du téléchargement.
+
+Note la source ci-dessous, c'est cette trace qui te protège :
+
+  source : ......................................................
+  auteur : ......................................................
+  licence : .....................................................

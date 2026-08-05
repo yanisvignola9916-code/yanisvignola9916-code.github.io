@@ -1,0 +1,14 @@
+{
+  "name": "Voyalis — le séjour parfait, à ton budget",
+  "short_name": "Voyalis",
+  "start_url": "/",
+  "display": "browser",
+  "lang": "fr",
+  "background_color": "#12253F",
+  "theme_color": "#12253F",
+  "icons": [
+    {"src": "/icones/icone-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/icones/icone-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "/icones/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

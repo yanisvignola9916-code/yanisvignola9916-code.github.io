@@ -1,0 +1,29 @@
+Europe de l'Ouest
+=================
+
+Dépose ici la photo de cette destination. N'importe quel nom de fichier
+convient : le site prend la première image du dossier.
+
+  Formats acceptés   .webp (préféré), .jpg, .jpeg, .png
+  Cadrage            paysage large, 1600 × 560 min.
+  Poids visé         150 à 250 Ko après compression
+
+Requête de recherche conseillée :
+
+  Anneau du Kerry Killarney
+
+  Unsplash  https://unsplash.com/fr/s/photos/Anneau+du+Kerry+Killarney
+  Pexels    https://www.pexels.com/fr-fr/chercher/Anneau+du+Kerry+Killarney/
+  Commons   https://commons.wikimedia.org/w/index.php?search=Anneau+du+Kerry+Killarney&title=Special:MediaSearch&type=image
+
+Où elle apparaîtra : En-tête de la page région (20 destinations)
+
+Deux vérifications qui n'appartiennent qu'à toi :
+  1. que l'image montre bien ce lieu — aucun contrôle automatique ne le dira ;
+  2. que la licence autorise l'usage commercial, au moment du téléchargement.
+
+Note la source ci-dessous, c'est cette trace qui te protège :
+
+  source : ......................................................
+  auteur : ......................................................
+  licence : .....................................................

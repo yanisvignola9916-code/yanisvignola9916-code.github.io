@@ -1,0 +1,85 @@
+Photos du site Voyalis
+======================
+
+Un dossier par destination, TROIS photos par dossier. Le nom du
+fichier porte le rôle — il n'y a rien à déclarer ailleurs :
+
+    1-ville.webp        la ville, le bâti, ce qu'on reconnaît
+    2-population.webp   la vie sur place : marchés, rues, gens
+    3-paysage.webp      le paysage, la vue qui décide du voyage
+
+Par exemple :
+
+    images/santorin/1-ville.webp
+    images/santorin/2-population.webp
+    images/santorin/3-paysage.webp
+
+Formats acceptés : .webp, .jpg, .jpeg, .png. Le webp pèse environ
+30 % de moins à qualité égale.
+
+Puis relance :
+
+    py build/generer.py
+
+
+Où chacune apparaît
+-------------------
+
+1-ville   en-tête de la fiche, tuile dans les grilles, et fond de
+          la page d'accueil pour les huit destinations en avant.
+2 et 3    bandeau de trois images sur la fiche, sous le fil
+          d'Ariane.
+
+Le bandeau ne s'affiche qu'à partir de deux photos : avec une
+seule, il ferait doublon avec l'en-tête.
+
+
+Ce qui est déjà là
+------------------
+
+Les 221 photos actuelles ont été récupérées automatiquement depuis
+Wikimedia Commons, une par destination, nommées `_<slug>.webp` :
+
+    py build/recuperer_photos.py
+
+Licences libres vérifiées, auteur et source enregistrés dans
+build/credits-photos.json, page /credits.html construite avec.
+Une destination sans candidat sûr garde sa trame.
+
+Le tiret bas les fait passer APRÈS `1-ville` dans l'ordre
+alphabétique : dès que tu déposes ta propre `1-ville`, c'est la
+tienne qui l'emporte. Rien à supprimer.
+
+Pense alors à compléter le crédit toi-même — le registre ne
+connaît que ce qu'il a téléchargé.
+
+
+Tu n'es obligé à rien
+---------------------
+
+Le site fonctionne sans aucune photo : chaque image absente est
+remplacée par une trame géométrique propre à sa région. Une
+destination avec une seule photo fonctionne aussi. Tu peux donc
+t'arrêter quand tu veux, rien ne paraîtra inachevé.
+
+
+Deux vérifications qui n'appartiennent qu'à toi
+-----------------------------------------------
+
+Que l'image montre bien le lieu. Aucun script ne le dira : une
+photo étiquetée « Santorin » sur une banque d'images montre
+parfois une autre île des Cyclades.
+
+Que la licence autorise l'usage commercial, au moment du
+téléchargement. Note la source de chaque image à côté — c'est
+cette trace qui te protège le jour où un ayant droit se manifeste.
+
+
+Pour contrôler
+--------------
+
+    py build/verifier_images.py   dimensions, poids, cadrage
+    py build/relire_photos.py     page de relecture visuelle
+    py build/variantes.py         version 1280 px pour les mobiles
+
+Cadrage conseillé : paysage, 2560 x 1440 minimum.
