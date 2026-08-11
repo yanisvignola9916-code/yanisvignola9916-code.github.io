@@ -251,8 +251,9 @@ document.getElementById('scene').addEventListener('keydown', function(e){
 placer();
 
 /* ── pile de séjours : cartes en éventail, la première se fait glisser ── */
-var pile = document.getElementById('pile'),
-    sejours = Array.prototype.slice.call(pile.children),
+var pile = document.getElementById('pile');
+if (!pile) return; // Élément absent : rien à initialiser
+var sejours = Array.prototype.slice.call(pile.children),
     ordre = sejours.slice();
 
 function empiler(){
